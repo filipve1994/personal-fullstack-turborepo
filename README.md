@@ -82,17 +82,17 @@ Learn more about the power of Turborepo:
 
 ## TODO BY MYSELF
 
-- [] update the text above
-- [] add a storybook application in apps folder
-- [] add a vite vue3 application in the apps folder
-- [] add a vite nuxt3 application in the apps folder
-- [] add a nestjs backend app in the apps folder
-- [] add a package eslint-config-collection in the packages folder that contains eslint setups for all kind of typescript frameworks
-- [] add a tsconfig package in the packages folder that contains all kind of tsconfig.json setups for all frameworks to be reused
-- [] add an utils package that collects all kind of plain typescript functions and utils in the packages folder, independent from whatever framework
-- [] add an vue3-ui package that collects all kind of shared vue components that can be reused in the apps projects
-- [] add a shared-types package in the packages folder that contains all kinds of classes and interfaces that can be used in all kinds of typescript projects.
-- [] add a plopfilejs generator package that can add templates for a specific language framework in the packages folder (kinda like angular/cli)
-- [] add a reactjs application in the apps folder
-- [] add an angular application in the apps folder
-- [] 
+- [ ] update the text above
+- [ ] add a storybook application in apps folder
+- [ ] add a vite vue3 application in the apps folder
+- [ ] add a vite nuxt3 application in the apps folder
+- [ ] add a nestjs backend app in the apps folder
+- [ ] add a package eslint-config-collection in the packages folder that contains eslint setups for all kind of typescript frameworks
+- [ ] add a tsconfig package in the packages folder that contains all kind of tsconfig.json setups for all frameworks to be reused
+- [ ] add an utils package that collects all kind of plain typescript functions and utils in the packages folder, independent from whatever framework
+- [ ] add an vue3-ui package that collects all kind of shared vue components that can be reused in the apps projects
+- [ ] add a shared-types package in the packages folder that contains all kinds of classes and interfaces that can be used in all kinds of typescript projects.
+- [ ] add a plopfilejs generator package that can add templates for a specific language framework in the packages folder (kinda like angular/cli)
+- [ ] add a reactjs application in the apps folder
+- [ ] add an angular application in the apps folder
+- [ ] 
