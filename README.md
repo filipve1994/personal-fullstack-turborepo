@@ -93,6 +93,9 @@ Learn more about the power of Turborepo:
 - [ ] add an vue3-ui package that collects all kind of shared vue components that can be reused in the apps projects
 - [ ] add a shared-types package in the packages folder that contains all kinds of classes and interfaces that can be used in all kinds of typescript projects.
 - [ ] add a plopfilejs generator package that can add templates for a specific language framework in the packages folder (kinda like angular/cli)
+- [ ] add a plugins package in packages folder that contains functionality code that can be reused in all kinds of frameworks
+- [ ] add a package to generate swagger files into typescript files interfaces
+- [ ] add an i18n package that contains all kinds of translations that can be reused, in yml, json and/or typescript format
 - [ ] add a reactjs application in the apps folder
 - [ ] add an angular application in the apps folder
 - [ ] 
