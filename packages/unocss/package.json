@@ -1,0 +1,19 @@
+{
+  "name": "@filipve/unocss",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "./unocss.config.ts",
+  "types": "./unocss.config.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+  },
+  "devDependencies": {
+
+  },
+  "dependencies": {
+
+  }
+}
