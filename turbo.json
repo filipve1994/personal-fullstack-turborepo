@@ -2,14 +2,37 @@
   "$schema": "https://turbo.build/schema.json",
   "globalDependencies": ["**/.env.*local"],
   "pipeline": {
+    "lint": {},
     "build": {
       "dependsOn": ["^build"],
       "outputs": [".dist/**", ".next/**", "!.next/cache/**"]
     },
-    "lint": {},
+    "type-check": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
     "//#docs:build": {
       "outputs": [
         ".vitepress/dist/**"
+      ]
+    },
+    "storybook:build": {
+      "dependsOn": [
+        "^build",
+        "build"
+      ],
+      "inputs": [
+        "src/**/*.stories.ts",
+        "src/**/*.mdx",
+        "stories/**/*.ts",
+        "stories/**/*.mdx",
+        "src/**/*.ts",
+        "src/**/*.js",
+        "src/**/*.vue"
+      ],
+      "outputs": [
+        "storybook-static/**"
       ]
     },
     "dev": {
