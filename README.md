@@ -99,3 +99,32 @@ Learn more about the power of Turborepo:
 - [ ] add a reactjs application in the apps folder
 - [ ] add an angular application in the apps folder
 - [ ] 
+
+## Libraries, packages and links
+
+- [Next.js](https://nextjs.org/)
+- [Vue.js]()
+- [Angular]()
+- [ReactJs]()
+- [NestJS]()
+- [PNPM]()
+- [Vite]()
+- [Plopfile.JS]()
+- [Nuxt.js]()
+- [Storybook]()
+- [Tsconfig]()
+- [Eslint]()
+- [Prettier]()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+
+## tutorials links
+
