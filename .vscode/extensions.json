@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "streetsidesoftware.code-spell-checker",
+    "dbaeumer.vscode-eslint",
+    "antfu.goto-alias",
+    "lokalise.i18n-ally",
+    "antfu.iconify",
+    "ms-vsliveshare.vsliveshare",
+    "csstools.postcss",
+    "antfu.unocss",
+    "ZixuanChen.vitest-explorer",
+    "Vue.volar"
+
+  ]
+}

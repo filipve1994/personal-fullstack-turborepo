@@ -13,6 +13,7 @@
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "1.0.0-beta.27",
     "eslint": "^8.48.0",
     "prettier": "^3.0.3",
     "turbo": "latest",
