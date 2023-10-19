@@ -34,3 +34,18 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+
+
+### new
+
+node_modules
+dist
+.turbo
+generated
+.vitepress/dist/**
+.vitepress/cache/**
+vite-library.config.ts.*
+storybook-static
+/.vitepress/dist/**
+/.vitepress/cache/**

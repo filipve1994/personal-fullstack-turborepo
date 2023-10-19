@@ -4,9 +4,14 @@
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": [".next/**", "!.next/cache/**"]
+      "outputs": [".dist/**", ".next/**", "!.next/cache/**"]
     },
     "lint": {},
+    "//#docs:build": {
+      "outputs": [
+        ".vitepress/dist/**"
+      ]
+    },
     "dev": {
       "cache": false,
       "persistent": true

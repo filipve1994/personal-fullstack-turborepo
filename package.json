@@ -1,17 +1,23 @@
 {
   "name": "personal-fullstack-turborepo",
   "version": "0.0.0",
+  "description": "An integrated frontend monorepo with Vite, Vitepress, Vitest, Turbo, Lefthook, Prettier, ESLint, Cypress, and more.",
   "private": true,
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
   },
   "devDependencies": {
     "eslint": "^8.48.0",
     "prettier": "^3.0.3",
-    "turbo": "latest"
+    "turbo": "latest",
+    "vitepress": "1.0.0-rc.22",
+    "vue": "^3.3.4"
   },
   "packageManager": "pnpm@8.9.2",
   "engines": {
