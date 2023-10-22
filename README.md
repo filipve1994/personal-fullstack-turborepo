@@ -111,6 +111,7 @@ Learn more about the power of Turborepo:
   - [Vue macros](https://github.com/vue-macros/vue-macros)
   - [Unplugin vue components](https://github.com/unplugin/unplugin-vue-components)
   - [Unplugin auto import](https://github.com/unplugin/unplugin-auto-import)
+  - [vite-plugin-dts](https://www.npmjs.com/package/vite-plugin-dts#vite-plugin-dts)
   - [Vitepress](https://vitepress.dev/)
 - [Angular](https://angular.io/cli)
   - Storybook:
@@ -177,6 +178,7 @@ Learn more about the power of Turborepo:
 - [Tsconfig]()
 - [Eslint](https://eslint.org/)
   - [antfu eslint config](https://github.com/antfu/eslint-config)
+  - [antfu eslint plugin](https://github.com/antfu/eslint-plugin-antfu)
 - [Prettier](https://prettier.io/)
 - [Unocss](https://github.com/unocss/unocss)
 - [Vscode](https://code.visualstudio.com/)

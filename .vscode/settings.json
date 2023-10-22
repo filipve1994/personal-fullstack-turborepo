@@ -1,4 +1,25 @@
 {
+  "i18n-ally.sourceLanguage": "en",
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.localesPaths": ["locales", "apps/**/locales"],
+  "i18n-ally.sortKeys": true,
+  "prettier.enable": false,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "unocss.root": [
+    "packages/unocss",
+    "packages/ui-starter",
+    "apps/vue-spa-starter"
+  ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
   "eslint.workingDirectories": [
     {
       "mode": "auto"

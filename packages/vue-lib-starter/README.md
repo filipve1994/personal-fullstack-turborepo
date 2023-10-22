@@ -1,6 +1,7 @@
-# vue-lib-starter
+# vue-lib-starter => Common Library
 
-This template should help get you started developing with Vue 3 in Vite.
+This library contains common utilities for the other packages.
+It's a mix of Vue composables and plain JavaScript functions.
 
 ## Recommended IDE Setup
 

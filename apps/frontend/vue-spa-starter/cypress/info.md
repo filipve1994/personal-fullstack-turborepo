@@ -1,0 +1,1 @@
+https://docs.cypress.io/guides/tooling/typescript-support#Configure-tsconfigjson

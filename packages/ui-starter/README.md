@@ -1,6 +1,6 @@
 # ui-starter
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a simple UI Library based on Vue. It has component and unit tests in place.
 
 ## Recommended IDE Setup
 
@@ -65,4 +65,9 @@ pnpm test:e2e
 
 ```sh
 pnpm lint
+```
+### Format with [Prettier](https://prettier.io/)
+
+```sh
+pnpm lint:fix
 ```

@@ -1,0 +1,35 @@
+{
+  "name": "my-ts-lib",
+  "description": "a simple typescript only package to learn how it works to make a package library",
+  "author": "FVE",
+  "keywords": ["some", "keywords", "to", "describe", "the", "package"],
+  "license": "MIT",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/my-lib.umd.cjs",
+  "module": "./dist/my-lib.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/my-lib.js",
+      "require": "./dist/my-lib.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.7",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.6.0",
+    "vitest": "^0.34.4"
+  }
+}

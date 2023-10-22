@@ -4,15 +4,12 @@
   "description": "",
   "private": true,
   "main": "index.cjs",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "dependencies": {
-
-  },
   "devDependencies": {
-
+    "@antfu/eslint-config": "1.0.0-beta.27",
+    "eslint-config-turbo": "^1.10.16"
   }
 }

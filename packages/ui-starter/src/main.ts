@@ -1,6 +1,11 @@
-import './assets/main.css'
+// import './assets/main.css'
 
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import 'uno.css';
+import '@unocss/reset/tailwind.css';
+
+const app = createApp(App);
+
+app.mount('#app')
